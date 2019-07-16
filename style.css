@@ -1,0 +1,120 @@
+*{
+    margin:0;
+}
+
+h2{
+    font-size:18px;
+    margin-top:19.920px;
+    margin-bottom:19.920px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    margin:auto;
+    width:1020px;
+    background:url('images/bg.jpg');
+    font-family:'Bitter';
+}
+
+body h1, #nav_entete{
+    
+    font-family: 'Josefin Sans';
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    text-align:center;
+    margin:0;
+}
+
+#en_tete_header{
+    height:320px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:auto;
+    width:900px;
+}
+
+header ul {
+    display:flex;
+    justify-content:space-evenly;
+    padding:0;
+    height:60px;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#couleur{
+    background-color:#7a7a7a;
+}
+
+header a{
+    color:white;
+}
+
+header a:hover{
+    color:#cfa205;
+}
+
+header h1{
+    color:#cfa205;
+    font-size:133px;
+}
+
+header p{
+    color:#cfa205;
+}
+
+#couleur ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#couleur li{
+    padding-right:10px;
+}
+
+main{
+    width:900px;
+    margin:auto;
+    text-align:center;
+    padding:60px;
+    border-bottom: 1px solid black;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    width:900px;
+    margin:auto;
+    padding:60px;
+}
+
+.colonne{
+    width:260px;
+    height:480px;
+    display:flex;
+    flex-direction:column;
+}
+
+.colonne p{
+    text-align:left;
+}
+
+.image{
+    height:195px;
+}
+    
+#main-footer{
+    background-color:white;
+}
